@@ -39,23 +39,17 @@ This repository contains a web-based Book Recommendation System that suggests bo
 
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Run the application:
 
-bash
-Copy
-Edit
 python app.py
+
 Visit http://localhost:5000 in your browser.
 
 ☁️ Deployment (Heroku)
 This app is ready to be deployed to Heroku. Simply push the repo to Heroku with a valid Procfile.
 
-bash
-Copy
-Edit
 heroku create book-recommender
 git push heroku main
+
